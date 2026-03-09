@@ -9,6 +9,10 @@ from tkinter import scrolledtext
 dotenv_path = Path('~/.env').expanduser()
 load_dotenv(dotenv_path=dotenv_path)  
 
+
+
+
+
 # Get variables
 POKEDEX_URI = os.getenv('POKEDEX_URI')
 POKEDEX_USER = os.getenv('POKEDEX_USER')
